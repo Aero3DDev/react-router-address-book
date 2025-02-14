@@ -1,6 +1,6 @@
 {
-  "homepage": "https://aero3ddev.github.io/remix-address-book",
-  "name": "remix-address-book",
+  "homepage": "https://aero3ddev.github.io/react-router-address-book",
+  "name": "react-router-address-book",
   "private": true,
   "type": "module",
   "scripts": {
