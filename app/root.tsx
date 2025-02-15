@@ -6,6 +6,7 @@ import {
   redirect,
 } from "react-router";
 import type { Route } from "./+types/root";
+import { BrowserRouter } from "react-router";
 
 import appStylesHref from "./app.css?url";
 
@@ -26,7 +27,10 @@ export function HydrateFallback() {
 }
 
 export default function App() {
-  return <Outlet />;
+  return 
+  (<BrowserRouter basename="/react-router-address-book">
+    <Outlet />
+  </BrowserRouter>);
 }
 
 // The Layout component is a special export for the root route.
