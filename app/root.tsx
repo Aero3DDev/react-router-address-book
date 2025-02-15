@@ -27,10 +27,11 @@ export function HydrateFallback() {
 }
 
 export default function App() {
-  return 
-  (<BrowserRouter basename="/react-router-address-book">
-    <Outlet />
-  </BrowserRouter>);
+  return (
+    <BrowserRouter basename="/react-router-address-book">
+      <Outlet />
+    </BrowserRouter>
+  );
 }
 
 // The Layout component is a special export for the root route.
